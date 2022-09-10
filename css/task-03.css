@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto; 
+}
+
+.gallery {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.list-item {
+    list-style: none;
+    width: 90%;
+    height: auto;
+}
+
+.list-item img {
+    max-width: 100%;
+    height: auto;
+}
